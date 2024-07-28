@@ -1,0 +1,38 @@
+/* src/TaskItem.css */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  background-color: #2ec4b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #2ec4b6;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
